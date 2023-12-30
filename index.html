@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Special Design</title>
+    <link rel="stylesheet" href="css/Special.css">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;1,800&display=swap">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,200;0,400;1,500&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;1,800&display=swap">
+</head>
+<body>
+    <!-- <div class="background"></div> -->
+    <!-- Start Settings Box -->
+    <div class="setting-box">
+       <div class="toggle">
+        <i class="fas fa-cog"></i>
+       </div>
+        <div class="setting-container">
+           <div class="option-box">
+            <h4>Colors</h4>
+            <ul class="colors-list">
+                <li class="active" data-color="chocolate"></li>
+                <li data-color="#D4B05F"></li>
+                <li data-color="#009688"></li>
+                <li data-color="#00BBF9"></li>
+                <li data-color="#00F5D4"></li>
+            </ul>
+           </div>
+           <div class="option-box">
+            <h4>Random Background</h4>
+            <div class="random-background">
+            <span class="yes active" data-background="yes">Yes</span>
+            <span class="no" data-background="no">No</span>
+           </div>
+        </div>
+        <div class="option-box">
+            <h4>Display Bullets</h4>
+            <div class="display-bullets">
+            <span class="yes active"  data-display="show">Show</span>
+            <span class="no" data-display="hide">Hide</span>
+           </div>
+        </div>
+        <div class="option-box">
+            <div class="head">
+                 <h4>Day Mode</h4>
+                <h4 class="h-dark">Dark Mode</h4>
+            </div>
+        <div class="mode">  
+             <i class="fas fa-sun"></i>
+             <i class="fas fa-moon"></i>
+        </div>
+    </div>
+        <button class="reset-option">Reset Options</button>
+    </div>
+    </div>
+    <!-- End Settings Box -->
+    <!-- Satrt Nav Bullets -->
+    <!-- this section means that it's contains hightlighted sections -->
+<div class="navigation-bullets">
+    <div class="bullet" data-section=".home">
+        <div class="tooltip">Home</div>
+    </div>
+<div class="bullet" data-section=".about">
+    <div class="tooltip">About us</div>
+</div>
+<div class="bullet" data-section=".skilles">
+    <div class="tooltip">Skilles</div>
+</div>
+<div class="bullet" data-section=".timeline">
+    <div class="tooltip">Timeline</div>
+</div>
+</div>
+    <!-- End Nav Bullets -->
+    <!-- Start Landing Page -->
+    <div class="landing-page home">
+        <!--  Making Slight layer to made backgroung image lookes opacity to text above it  -->
+        <div class="overlay"></div>
+      <div class="container">
+            <div class="header-area">
+                <div class="logo"><img src="image/logo.png" alt=""></div>
+                <div class="nav-container">
+                    <ul class="nav">
+                        <li><a href="#" class="active" data-section=".home">Home</a></li>
+                        <li><a href="#" data-section=".about">About</a></li>
+                        <li><a href="#" data-section=".skilles">Skilles</a></li>
+                        <li><a href="#" data-section=".gallery">Gallery</a></li>
+                        <li><a href="#" data-section=".timeline">Timeline</a></li>
+                        <li><a href="#" data-section=".features">Features</a></li>
+                        <li><a href="#" data-section=".testimonials">Testimonials</a></li>
+                        <li><a href="#" data-section=".contact">Contact</a></li>
+                    </ul>
+                    <button class="toggle-menu">
+                      <span></span>
+                      <span></span>
+                      <span></span>
+                 <i class="fas fa-sort-up"></i>
+                     
+                    </button>
+                </div>
+            </div>
+        </div>
+            
+    <div class="intoduction-text">
+        <h1>We Are <span>Creative</span> Agency</h1>
+        <p>The secret of success is constancy to purpose.. By the way In order to win, you must expect to win and remember Fear of failure is one attitude that will keep you at the same point in your life.</p>
+    </div>
+    </div>
+
+   
+  
+    <!-- End Landing Page -->
+    <!-- Start About Us  -->
+   
+ 
+        <div class="container">
+            <div class="about">
+        <div class="image-box">
+            <img src="image/about2-removebg-preview.png" alt="" srcset="">
+        </div>
+            <div class="info-box">
+                <h2>About Us</h2>
+                <p>You will exceed your imagination limtes if you are content with your self, none the less
+                     All the flowers of all the tomorrows are in the seeds of today, rise up The future is completely open, and we are writing it moment to moment.</p>
+            </div>
+            
+        </div>
+        </div>
+  
+    <!-- End About Us  -->
+<!-- Start Skilles -->
+
+<div class="skilles">
+     <div class="container">
+    <h2>Skilles</h2>
+    <div class="progress-box">
+       <div class="skilles-name">Front End</div>
+        <div class="progress-holder">
+            <span data-progress="80%"></span>
+        </div>
+    </div>
+    <div class="progress-box">
+        <div class="skilles-name">Back End</div>
+         <div class="progress-holder">
+             <span data-progress="30%"></span>
+         </div>
+     </div>
+     <div class="progress-box">
+        <div class="skilles-name">Ui & Ux</div>
+         <div class="progress-holder">
+             <span data-progress="50%"></span>
+         </div>
+     </div>
+    <div class="progress-box">
+        <div class="skilles-name">Artificial intelligence</div>
+        <div class="progress-holder">
+            <span data-progress="40%"></span>
+        </div>
+    </div>
+</div>
+</div>
+<!-- End Skilles -->
+<!-- Start Gallery -->
+<div class="gallery">
+    <div class="container">
+    <h2>Gallery</h2>
+    <div class="images-box">
+        <img src="image/01.jpg" alt="image one">
+        <img src="image/02.jpg" alt="image two">
+        <img src="image/03.jpg" alt="image three">
+        <img src="image/04.webp" alt="image four">
+        <img src="image/05.png" alt="image five">
+        <img src="image/06.jpg" alt="image " >
+        <img src="image/07.jpg" alt="image " >
+        <img src="image/08.jpg" alt="image " >
+        <img src="image/09.jpg" alt="image " >
+        <img src="image/10.jpg" alt="image " >
+    </div>
+</div></div>
+<!-- End Gallery -->
+<!-- Start Timeline -->
+<div class="timeline">
+    <h2>Timeline</h2>
+    <div class="container">
+    <div class="timeline-content">
+        <div class="year">2012</div>
+        <div class="left">
+            <div class="content">
+                <h3>Rising</h3>
+                <p>Hope is a work effort, and effort is not lost.</p>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+        <div class="right">
+            <div class="content">
+                <h3>Maturity</h3>
+                <p>What doesn't kill you makes you stronger.</p>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+        <div class="year">2018</div>
+        <div class="left">
+            <div class="content">
+                <h3>Experiences</h3>
+                <p>Try everythng.</p>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+        <div class="right">
+            <div class="content">
+                <h3>Lessons</h3>
+                <p>Things will never work out as planned... This is life not a movie, How you respond to how things work out will determine the quality of your life.</p>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+        <div class="year">2023</div>
+        <div class="left">
+            <div class="content">
+                <h3>Calmness</h3>
+                <p>Be as you wish to seem.</p>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+        <div class="right">
+            <div class="content">
+                <h3>Independency</h3><p>Better to fight for something than live for nothing.</p>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<!-- End Timeline -->
+<!-- Start Features -->
+<div class="features">
+    <div class="container">
+    <h2>Features</h2>
+    <div class="feature-box">
+        <img src="image/project management.avif" alt="">
+        <h4>Project Management</h4>
+        <p>It involves the application of artificial intelligence techniques to enhance and streamline project planning, execution, and monitoring. It for sure utilizes algorithms for resource allocation and risk assessment.</p>
+    </div>
+    <div class="feature-box">
+        <img src="image/managements.webp" alt="">
+        <h4> Management</h4>
+        <p> It involves leveraging artificial intelligence to optimize organizational processes, enhance decision-making, and drive efficiency, ultimately facilitating smarter and more adaptive business strategies.</p>
+    </div>
+    <div class="feature-box">
+        <img src="image/cooperations.png" alt="">
+        <h4>Cooperation</h4>
+        <p> Enable multiple artificial intelligence systems to work collaboratively, fostering seamless communication. And enhance efficiency by enabling diverse AI components to achieving common goals.</p>
+    </div>
+    <div class="feature-box">
+        <img src="image/feat-analysis.png" alt="">
+        <h4>Data Analysis Business </h4>
+        <p>It entails examining and interpreting datasets to extract valuable insights.It empowers organizations to make informed choices based on patterns, trends, and statistical findings within their collected data.</p>
+    </div>
+    <div class="feature-box">
+        <img src="image/app development.png" alt="">
+        <h4>App Development</h4>
+        <p>The process of creating software applications for mobile or web platforms, involving coding, design, and testing. It aims to deliver user-friendly experiences and functionalities that meet specific needs.</p>
+    </div>
+    <div class="feature-box">
+        <img src="image/acomplishment.webp" alt="">
+        <h4>Acomplishment</h4>
+        <p> I enthusiastically endorse the seamless integration of cutting-edge AI. This transformative approach at many aspectes, and will undoubtedly elevate operational efficiency to unprecedented heights  .</p>
+    </div>
+    <!-- To make the features padding show  -->
+    <div class="clearfix"></div>
+</div>
+</div>
+<!-- End Features -->
+<!-- Start Testimonials -->
+<div class="testimonials">
+    <div class="container">
+    <h2>Testimonials</h2>
+    <div class="testimonial-container">
+<div class="testimonial-box">
+    <h4>Robin Dawson</h4>
+    <div class="testimonial-content">
+        <div class="testi-image"> 
+             <img src="image/testimonial-one.webp" alt=""></div>
+        <p>UX Designer, <span>Digital Creative</span></p>
+        <br>
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+        </div>
+    </div>
+    <div class="testimonial-recommendation">
+        <h3>great customer service</h3>
+        <p>Leverage advanced algorithms to analyze users' achievements. It uses machine learning to dynamically showcase accomplishments, providing a data-driven and whole representation of individual successes.</p>
+    </div>
+  
+
+</div>
+        <div class="testimonial-box">
+            <h4>Lara Croft</h4>
+            <div class="testimonial-content">
+                <div class="testi-image">
+                      <img src="image/testimonial-two.webp" alt="">
+                    </div>
+                <p>Marketing Manger, <span>New Media</span></p>
+                <br> 
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+            </div>
+            <div class="testimonial-recommendation">
+                <h3>Powerful suite of tools</h3>
+                <p>
+I highly recommend integrating a user-friendly front end with intuitive design for seamless interaction, complemented by a robust back end leveraging advanced artificial intelligence algorithms to ensure optimal performance.</p>
+            </div>
+</div>
+</div>
+</div></div>
+<!-- End Testimonials -->
+<!-- Start Contact Us -->
+<div class="contact">
+    <div class="container">
+    <div class="containers">
+    <div class="left">
+        <div class="form-warpper">
+            <h2> Contact Us</h2>
+<form action="index.html" method="post" class="contact-form">
+    <div class="input-wrap">
+        <input type="text" class="contact-input" name="First name" autocomplete = "off" required>
+        <label>First name</label>
+        <i class="icon fas fa-id-card"></i>
+    </div>
+    <div class="input-wrap">
+        <input type="text" class="contact-input" name="Last name" autocomplete = "off" required>
+        <label>Last name</label>
+        <i class=" icon fas fa-id-card"></i>
+    </div>
+    <div class="input-wrap w-100">
+        <input type="email" class="contact-input" name="Email" autocomplete = "off" required>
+        <label>Email</label>
+        <i class="icon fas fa-envelope"></i>
+    </div>
+    <div class="input-wrap textarea w-100">
+      <textarea name="Message" class="contact-input" autocomplete = "off" required ></textarea>
+        <label>Message</label>
+        <i class="icon fas fa-inbox"></i>
+    </div>
+    <div class="contact-buttons">
+        <button class="btn upload">
+        <span><i class="fas fa-paperclip"></i>
+            Add attachment
+        </span>
+        <input type="file" name="attachment">
+        </button>
+        <input type="submit" value="Send message" class="btn">
+    </div>
+</form>
+ </div> 
+ 
+
+</div>
+<div class="right">
+    <img src="image/robot2.png" alt="Contact Image" class="contact-img">
+</div>
+</div>
+</div>
+</div>
+
+    
+<!-- End Contact Us -->
+<!-- Start Footer -->
+<div class="footer">Created by engineer Sara</div>
+<!-- End Footer -->
+    <script src="js/speacial.js"></script>   
+</body>
+</html>
